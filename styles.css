@@ -179,6 +179,7 @@ header img, footer img {
     text-align: center;
     flex-wrap: wrap;
     padding: 20px;
+    flex-direction: column;
 }
 
 .flex-container img, .card img {
@@ -296,4 +297,83 @@ input {
 #socials i:hover {
     color: rgb(46, 167, 46);
     transition: 0.3s ease;
+}
+
+/* media queries */
+/* tablet */
+@media (min-width: 768px) {
+    .nav-links li {
+    font-size: 18px;
+    }
+
+    .card {
+        width: 700px;
+    }
+
+    #contact-form {
+        width: 700px;
+    }
+
+    input, #contact-form button {
+        width: 665px;
+    }
+}
+/* mobile */
+@media (min-width: 425px) {
+    .nav-links {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .container {
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .flex-container .card img {
+    width: 350px;
+    height: 250px;
+}
+
+    .flex-container img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .card {
+        width: 375px;
+    }
+
+    .card-container p, .card-container h2 {
+        padding: 0;
+    }
+
+    .hero {
+        height: 550px;
+    }
+
+    .hero h1 {
+        padding: 0;
+    }
+
+    #contact-form {
+        width: 350px;
+    }
+
+    input {
+        width: 310px;
+    }
+
+    #contact-form button {
+        width: 310px;
+    }
+
+    .contact-container p {
+        width: 310px;
+    }
+
+    .contact-container img {
+        width: 410px;
+        height: 310px;
+    }
 }

@@ -164,11 +164,15 @@ header img, footer img {
     z-index: 1;
 }
 
-.hero p {
+.mission-txt {
+    background-color: rgba(0, 0, 0, 0.7);
     font-weight: bold;
-    color: black;
+    color: rgb(238, 32, 135);
     z-index: 1;
-    text-shadow: 1px 1px 6px white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 40px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .flex-container {

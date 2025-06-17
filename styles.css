@@ -297,3 +297,36 @@ input {
     color: rgb(46, 167, 46);
     transition: 0.3s ease;
 }
+
+@media (min-width: 768px) {
+    .nav-links li {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 600px;
+    }
+
+    #contact-form {
+        width: 700px;
+    }
+
+    #contact-form input, #contact-form button {
+        width: 650px;
+    }
+}
+
+@media (min-width: 425px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nav-links li {
+        font-size: 16px;
+    }
+
+    .container {
+        max-height: 16rem;
+    }
+}

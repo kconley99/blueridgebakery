@@ -301,7 +301,7 @@ input {
 
 /* media queries */
 /* tablet */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .nav-links li {
     font-size: 18px;
     }
@@ -319,7 +319,7 @@ input {
     }
 }
 /* mobile */
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     .nav-links {
         gap: 0;
         flex-direction: column;

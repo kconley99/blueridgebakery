@@ -344,5 +344,33 @@ input {
 
 @media (max-width: 425px) {
 
+    .nav-links {
+        flex-direction: column;
+    }
 
+    .hero {
+        margin-top: 340px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    header .container {
+        height: 200px;
+    }
+
+    .card {
+        max-width: 400px;
+    }
+
+    .flex-container {
+        max-width: 400px;
+        flex-wrap: nowrap;
+    }
+
+    .flex-container p {
+        font-size: 14px;
+        max-width: 400px;
+    }
 }

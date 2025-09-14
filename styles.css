@@ -328,6 +328,18 @@ input {
     p {
         width: 600px;
     }
+
+    #contact-form {
+        width: 650px;
+    }
+
+    #contact-form button {
+        width: 610px;
+    }
+
+    input {
+        width: 610px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -337,4 +349,21 @@ input {
         gap: 20px;
     }
 
+    .nav-links {
+        flex-direction: column;
+    }
+
+    header .container {
+        height: 600px;
+    }
+
+    .card {
+        max-width: 425px;
+        height: 600px;
+    }
+
+    .card-container p {
+        font-size: 16px;
+        max-width: 410px;
+    }
 }

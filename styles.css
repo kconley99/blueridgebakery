@@ -344,26 +344,5 @@ input {
 
 @media (max-width: 425px) {
 
-    .foot-container {
-        flex-direction: column;
-        gap: 20px;
-    }
 
-    .nav-links {
-        flex-direction: column;
-    }
-
-    header .container {
-        height: 600px;
-    }
-
-    .card {
-        max-width: 425px;
-        height: 600px;
-    }
-
-    .card-container p {
-        font-size: 16px;
-        max-width: 410px;
-    }
 }

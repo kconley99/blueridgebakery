@@ -401,4 +401,12 @@ input {
     p {
         width: 420px;
     }
+
+    #contact-form {
+        width: 350px;
+    }
+
+    input, #contact-form button {
+        width: 350px;
+    }
 }

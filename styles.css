@@ -368,13 +368,17 @@ input {
     }
 
     .card {
-        max-width: 430px;
+        max-width: 400px;
         border-radius: 0;
     }
 
     .flex-container {
-        max-width: 430px;
+        max-width: 400px;
         flex-wrap: nowrap;
+    }
+
+    .flex-container img {
+        max-width: 390px;
     }
 
     .flex-container p {

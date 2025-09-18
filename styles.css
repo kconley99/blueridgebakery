@@ -10,6 +10,10 @@
     background-color: rgba(204, 173, 96, 0.378);
 }
 
+ {
+    background-color: blanchedalmond;
+}
+
 .center {
     text-align: center;
 }
@@ -309,7 +313,7 @@ input {
 
     .container {
         flex-direction: column;
-        height: 200px;
+        height: 500px;
     }
 
     .card {
@@ -369,8 +373,18 @@ input {
         flex-wrap: nowrap;
     }
 
+    .flex-container img {
+        margin-left: 25px;
+    }
+
     .flex-container p {
         font-size: 14px;
         max-width: 400px;
+    }
+
+    .foot-container {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
     }
 }

@@ -407,7 +407,7 @@ input {
     }
 
     input, #contact-form button {
-        width: 350px;
+        width: 310px;
     }
 
     h1 {
@@ -418,4 +418,10 @@ input {
         padding: 0;
         margin-top: 20px;
     }
+    
+    .contact-container img {
+        max-width: 350px;
+    }
+
+
 }

@@ -232,6 +232,7 @@ header img, footer img {
     width: 850px;
     line-height: 2.5;
     text-align: center;
+    background-color: rgba(165, 42, 42, 0.368);
 }
 
 .card:hover {
@@ -362,11 +363,12 @@ input {
     }
 
     .card {
-        max-width: 425px;
+        max-width: 430px;
+        border-radius: 0;
     }
 
     .flex-container {
-        max-width: 425px;
+        max-width: 430px;
         flex-wrap: nowrap;
     }
 
@@ -379,5 +381,10 @@ input {
         flex-direction: column;
         gap: 30px;
         margin-top: 20px;
+    }
+
+    .socials {
+        flex-direction: column;
+        gap: 10px;
     }
 }

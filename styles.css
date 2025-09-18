@@ -410,6 +410,16 @@ input {
         width: 310px;
     }
 
+    .hero {
+        height: 650px;
+    }
+
+.hero h1 {
+/*     margin-top: 10rem;
+ */
+
+    }
+
     h1 {
         padding: 10;
     }
@@ -423,5 +433,8 @@ input {
         max-width: 350px;
     }
 
+    .padding {
+        margin: auto;
+    }
 
 }

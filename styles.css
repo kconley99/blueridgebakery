@@ -313,7 +313,7 @@ input {
 
     .container {
         flex-direction: column;
-        height: 500px;
+        height: 300px;
     }
 
     .card {
@@ -350,14 +350,11 @@ input {
 
     .nav-links {
         flex-direction: column;
-    }
-
-    .hero {
-        margin-top: 340px;
-    }
+    } 
 
     .container {
         padding: 0;
+        height: 500px;
     }
 
     header .container {

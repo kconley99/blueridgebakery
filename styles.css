@@ -362,16 +362,12 @@ input {
     }
 
     .card {
-        max-width: 400px;
+        max-width: 425px;
     }
 
     .flex-container {
-        max-width: 400px;
+        max-width: 425px;
         flex-wrap: nowrap;
-    }
-
-    .flex-container img {
-        margin-left: 25px;
     }
 
     .flex-container p {

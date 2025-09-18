@@ -355,7 +355,7 @@ input {
     } 
 
     .nav-links li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .container {
@@ -375,6 +375,7 @@ input {
     .flex-container {
         max-width: 400px;
         flex-wrap: nowrap;
+        margin: auto;
     }
 
     .flex-container img {
